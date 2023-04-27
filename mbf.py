@@ -39,7 +39,7 @@ class login:
              try:
                   url = requests.get(f"https://graph.facebook.com/v16.0/{acc}/friends?access_token={token}&limit=5000", cookies=cokie).json()
                   for akn in url['data']:
-                      print(akn)
+ #                     print(akn)
                       idz.append(akn['id']+'<=>'+akn['name'])
              except KeyError:
                  exit('\ntidak ada teman yang di tampilkan')
