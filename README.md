@@ -1,2 +1,1 @@
-# Faster
-Dump akun Facebook 
+    install sendiri jangan manja
